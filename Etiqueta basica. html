@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Egresados </h1><!--h1  - h6 sirve para poner titulos y subtitulos
+  en nuestra paginas  -->
+  <h2><i>Nueva etapa</i<></h2>
+  <h2> 2021 </h2>
+  <p>esto es un parrafo de texto.puede contener multiples lineas. aunque si
+    no le indico que hago un salto de linea le aparecera como un texto continuo sin puntos y aparte</p> Lorem ipsum dolor sit amet,<b> consectetur adipisicing elit </b>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br> <!--<br> sirve para introducir unsalto de linea en el texto--> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <p> <!-- La etiqueta <p> sierve para crear un parrafo de texto
+    para -->
+    <!-- lorem upsum es un texto dummy(un texto fake) sirve para "rellenar" la pagina con parrafo si es que no tengo el texto definitivo -->
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<i> Ut enim ad minim veniam </i>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+     <!-- para increstrar imagenes se usa la etique img dicha etique tiene dos atributos mandatorios src:que indica el origen de la image y alt:  que indica el nombre aternativo de la imagenpor si la imagen no puede ser cargada-->
+     <!--el atributo src pude ser basicamente escrito de dos formas: mediante la ruta absoluta o relativa. como se ejemplifica a continuacion-->
+
+
+<!--ruta obsoluta que tambien puede ser a una imagen fuera de nuestro servidor-->
+  <img src="" alt="">
+
+<!-- ruta relativa (relativa a la ubicacion del archivo html)-->
+  <img src="/home/estudiante/Documentos/egresados" alt="">
+  <h3>esto es subtitulo de segundo nivel</h3>
+</body>
+</html>
