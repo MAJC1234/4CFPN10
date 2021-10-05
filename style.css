@@ -1,0 +1,40 @@
+body{
+  background:radial-gradient(circle,#99154E)
+  font-family:arial,helvetica,sans-serif;
+  text-align: center;background-color:#FFBBCC;
+}
+div{
+vertical-aling:middle;
+display:inline;
+}
+h2{
+  front-size:3em;
+  text-align:center;
+  background: radial-gradient(circle,#EB92BE);
+}
+ hr{
+ border: none:
+ border-top:7px dotted;
+ width:30%
+ border-color:grey;
+}
+img{
+ border-radius:10%
+}
+.circulo{
+ border-radius:100%
+ width: 80px;
+ height: 80px;
+}
+.boton{
+  color:white
+ padding:15px 20px;
+ background-color: grey;
+ font-size: 1.5em
+ border-radius:10px;
+}
+.boton:hover{
+  background-color: pink;
+  border-radius: 20px,
+  color:black;
+  {
