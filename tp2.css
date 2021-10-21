@@ -1,0 +1,31 @@
+body{
+  background-color: #F0D9FF;
+}
+
+header{
+ background-color:#BFA2DB;
+ height: 200px;
+ width: auto;
+}
+
+nav{
+ background-color:red;
+ height: 50px;
+ width:auto;
+}
+
+section{
+ background-color: pink;
+ height:200px;
+ width: auto;
+}
+
+aside{
+ background-color:violet;
+ height:200px;
+ width: auto;
+}
+footer{
+ background-color:black;
+ height:200px;
+ width:auto;
