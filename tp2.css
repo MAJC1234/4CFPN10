@@ -1,31 +1,20 @@
 body{
-  background-color: #F0D9FF;
+background-color:#CBC9FF;
 }
-
 header{
- background-color:#BFA2DB;
- height: 200px;
- width: auto;
+background-color: #;
 }
-
 nav{
- background-color:red;
- height: 50px;
- width:auto;
+background-color: #;
+width:200px;
 }
-
 section{
- background-color: pink;
- height:200px;
- width: auto;
+background-color:#CBC9FF;
 }
 
 aside{
- background-color:violet;
- height:200px;
- width: auto;
+background-color: #;
 }
 footer{
- background-color:black;
- height:200px;
- width:auto;
+background-color:#;
+}
