@@ -1,20 +1,37 @@
 body{
 background-color:#CBC9FF;
+
 }
 header{
-background-color: #;
-}
-nav{
-background-color: #;
+background-color:
 width:200px;
 }
-section{
+nav{
+width:200px;
+}
+.position:after
 background-color:#CBC9FF;
-}
 
-aside{
-background-color: #;
 }
-footer{
-background-color:#;
+h1{
+text-align: center;
+top:200px;
+}
+h2{
+text-align: center;
+front-size:3em;
+
+}
+h3{
+text-align:center;
+
+}
+h4{
+text-align:  center;
+}
+img{
+border-radius:10%;
+top:200px;
+
+
 }
