@@ -1,59 +1,68 @@
  body{
+
   background:radial-gradient(circle,#99154E);
   font-family:arial,helvetica,sans-serif;
-  text-align: center;background-color:#FFBBCC;
-  text-shadow: 17px 8px 2px #CE9DCA;
-}
+  text-align: center;
 
+  text-shadow: 17px 8px 2px #CE9DCA;
+
+  background-image: url("fondoagua.png");
+  background-repeat: repeat-y;
+  background-attachment: scroll;
+  background-position: 0 0;
+}
 h2{
   font-size:5em;
   text-align:center;
-  background: radial-gradient(circle,#EB92BE);
+  background: radial-gradient(circle,#F6F5F5);
   font-family: 'Dancing Script', cursive;
-  font-family: 'Rubik Beastly', cursive;
-  font-family: 'Satisfy', cursive;
-  font-family: 'Shalimar', cursive;
 
 }
-
 h1{
-  font-size:60px;
+  font-size:5em;
   font-family: 'Dancing Script', cursive;
-  font-family: 'Rubik Beastly', cursive;
-  font-family: 'Satisfy', cursive;
-
 
 }
 h3{
-  font-size:60px;
-  font-family: 'Amatic SC', cursive;
+  font-size:3em;
   font-family: 'Dancing Script', cursive;
-  font-family: 'Rubik Beastly', cursive;
-  font-family: 'Satisfy', cursive;
-  font-family: 'Shalimar', cursive;
   }
- hr{
- border: none;
- border-top:7px dotted;
+
+h4{
+  font-size: 2em;
+  font-family: 'Dancing Script', cursive;
 }
 
- img{
+h5{
+  font-size:2em;
+  font-family: 'Dancing Script', cursive;
+ }
+ul{
+  list-style-type: none;
+}
+hr{
+ border: none;
+ border-top:7px dotted;
+ margin: 60px;
+}
+
+img{
  border-radius:10%;
 }
 
 .circulo{
- border-radius:100%;
- width: 80px;
- height: 80px;
+  border-radius:100%;
+  width: 80px;
+  height: 80px;
 }
+
 .boton{
   color:red;
- padding:15px 20px;
- background-color: grey;
- font-size: 1.5em;
-;
-
+  padding:15px 20px;
+  background-color: grey;
+  font-size: 1.5em;
 }
+
 .boton:hover{
   background-color: pink;
   border-radius: 20px;
