@@ -6,7 +6,7 @@
 
   text-shadow: 17px 8px 2px #CE9DCA;
 
-  background-image: url("fondoagua.png");
+  background-image: url("flor.png");
   background-repeat: repeat-y;
   background-attachment: scroll;
   background-position: 0 0;
@@ -68,4 +68,8 @@ img{
   border-radius: 20px;
   color:black;
   text-shadow: 2px 2px 2px #CAB8FF;
+}
+
+footer{
+ font-family:'Dancing Script', cursive;
 }
