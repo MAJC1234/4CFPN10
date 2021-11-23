@@ -1,44 +1,43 @@
  body{
+ background:radial-gradient(circle,#99154E);
+ font-family:arial,helvetica,sans-serif;
+ text-align: center;
+ text-shadow: 17px 8px 2px #CE9DCA;
+ background-image: url("flor.png");
+ background-repeat: repeat-y;
+ background-attachment: fixed;
+ background-position: 0 0;
 
-  background:radial-gradient(circle,#99154E);
-  font-family:arial,helvetica,sans-serif;
-  text-align: center;
-
-  text-shadow: 17px 8px 2px #CE9DCA;
-
-  background-image: url("flor.png");
-  background-repeat: repeat-y;
-  background-attachment: scroll;
-  background-position: 0 0;
 }
 h2{
-  font-size:5em;
-  text-align:center;
-  background: radial-gradient(circle,#F6F5F5);
-  font-family: 'Dancing Script', cursive;
+ font-size:5em;
+ text-align:center;
+ background: radial-gradient(circle,#F6F5F5);
+ font-family: 'Dancing Script', cursive;
 
 }
 h1{
-  font-size:5em;
-  font-family: 'Dancing Script', cursive;
+ font-size:5em;
+ font-family: 'Dancing Script', cursive;
 
 }
 h3{
-  font-size:3em;
-  font-family: 'Dancing Script', cursive;
-  }
+ font-size:3em;
+ font-family: 'Dancing Script', cursive;
+}
 
 h4{
-  font-size: 2em;
-  font-family: 'Dancing Script', cursive;
+ font-size: 2em;
+ font-family: 'Dancing Script', cursive;
 }
 
 h5{
-  font-size:2em;
-  font-family: 'Dancing Script', cursive;
- }
+ font-size:2em;
+ font-family: 'Dancing Script', cursive;
+}
+
 ul{
-  list-style-type: none;
+ list-style-type: none;
 }
 hr{
  border: none;
@@ -50,26 +49,70 @@ img{
  border-radius:10%;
 }
 
-.circulo{
-  border-radius:100%;
-  width: 80px;
-  height: 80px;
-}
-
-.boton{
-  color:red;
-  padding:15px 20px;
-  background-color: grey;
+p{
   font-size: 1.5em;
 }
 
-.boton:hover{
-  background-color: pink;
-  border-radius: 20px;
-  color:black;
-  text-shadow: 2px 2px 2px #CAB8FF;
+footer{
+font-family:'Dancing Script', cursive;
 }
 
-footer{
- font-family:'Dancing Script', cursive;
+li{
+ display: inline-block;
+}
+
+header{
+ height:600px;
+}
+
+.seccion1{
+ background-color: rgb(255, 196, 225,0.7);
+ height:600px;
+}
+.articulo1{
+ position: relative;
+
+}
+.texto{
+ position: absolute;
+ width: 49%;
+ top:10px;
+ left: 50px;
+}
+.imagen{
+ position: absolute;
+ top:50px;
+ right: 100px;
+}
+
+.seccion2{
+ background-color: rgb(255, 196, 225,0.7);
+ text-shadow: 17px 8px 2px #CE9DCA;
+ height:600px;
+  background-image: url("flor.png");
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  background-position: 0 0;
+}
+
+.articulo2{
+position:relative;
+}
+.texto{
+  position:absolute;
+  width: 49%;
+  top:50px;
+  left:50px;
+
+}
+.imagen{
+  position: absolute;
+  top:50px;
+  right:15px;
+
+}
+.imagen{
+  position: absolute;
+  top:50px;
+  right:15px;
 }

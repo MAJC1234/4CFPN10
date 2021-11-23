@@ -1,3 +1,15 @@
+<!--Trabajo practico 2 -->
+<!--Crear un sitio web usando css externo -->
+<!--contenido:
+          header : elementos de cabecera como: titulo del sitio, una foto/logo, etc
+          nav: una barra de navegacion con los links a las paginas del sitio
+          section1: con algun titulo o texto sobre la seccion con dos articles.
+                  * cada article debe tener al menos un titulo, un texto y una imagen
+          section2: con algun titulo o texto sobre la seccion con dos articles.
+                  * cada article debe tener al menos un titulo, un texto y una imagen
+          aside:   algun contenido como imagen y texto con informacion complementaria al sitio
+          footer:  links de la pagina. links a redes sociales. lista con los integrantes del equipo
+                    * iconos a redes sociales con links-->
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -7,27 +19,6 @@
   <title>Document</title>
   <link rel="stylesheet" href="css/tp1.css" >
   <link rel="icon" href="favicon.ico">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Rubik+Beastly&family=Satisfy&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Rubik+Beastly&family=Satisfy&family=Shalimar&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script:wght@400;700&family=Rubik+Beastly&family=Satisfy&family=Shalimar&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script:wght@400;700&family=Rubik+Beastly&family=Satisfy&family=Shalimar&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script:wght@400;700&family=Pacifico&family=Rubik+Beastly&family=Satisfy&family=Shalimar&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script:wght@400;700&family=Pacifico&family=Rubik+Beastly&family=Satisfy&family=Shalimar&family=Yuji+Boku&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script:wght@400;700&family=Rubik+Beastly&family=Satisfy&family=Shalimar&family=Yuji+Boku&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script:wght@400;500;700&family=Rubik+Beastly&family=Satisfy&family=Shalimar&family=Yuji+Boku&display=swap" rel="stylesheet">
@@ -42,41 +33,61 @@
   </header>
 
   <hr>
-  <section style="background-color:	white">
-    <h2>Descripción de uñas esculpidas</h2>
-    <p>Las uñas esculpidas son extensiones que se construyen a partir de la uña natural con material acrílico o gel.<br> Estas permiten restaurar y reconstruir uñas mordidas o simplemente, lucir uñas más largas. Algo que las hace sumamente atractivas, ya que se puede moldear la forma y longitud para obtener varios estilos.</p>
-    <span>Esculpidas en acrilico</span>
+  <section class="seccion1">
+    <article class="articulo1">
+      <div class="texto">
+        <h2>Descripción de uñas esculpidas</h2>
+        <p>Las uñas esculpidas son extensiones que se construyen a partir de la uña natural con material acrílico o gel.<br> Estas permiten restaurar y reconstruir uñas mordidas o simplemente, lucir uñas más largas. Algo que las hace sumamente atractivas, ya que se puede moldear la forma y longitud para obtener varios estilos.</p>
+        <p>Esculpidas en acrilico</p>
+      </div>
+      <div class="imagen">
+        <img src="esculpidas.jpg" alt="uñas rosas " width="500">
+     </div>
+    </article>
   </section>
   <hr>
-  <section>
-    <h3>La imagen</h3>
-    <img src="uñas.jpg" alt="uñas rosas " width="500">
-    <img src="coco.jpg" alt="uñas blancas con brillo " width="500">
-    <h4>Paises</h4>
-    <ul>
-     <li>Argentina</li>
-     <li>Mexico</li>
-     <li>EE.UU</li>
-     <li>Brasil</li>
-    </ul>
-    <br>
-    <h4> Nombre </h4>
-    <ul>
-     <li>Meli</li>
-     <li>Jesi</li>
-     <li>Cele</li>
-    </ul>
+  <section class="seccion2">
+    <article class="articulo2">
+     <div class="texto">
+       <h3>Semipermanete</h3>
+       <p>La manicura semipermanente es una técnica que mantiene las uñas pintadas perfectamente por un lapso bastante prolongado. El esmaltado semipermanente es la alternativa perfecta para aquellas mujeres que tienen una vida muy ocupada y que desean tener sus uñas impecables pero no cuentan con el tiempo necesario para asistir al manicurista con frecuencia.</p>
+       </div>
+       <div class="imagen">
+         <h4>La imagen</h4>
+         <img src="uñas.jpg" alt="uñas rosas " width="400">
+         <img src="coco.jpg" alt="uñas blancas con brillo " width="500">
+         </div>
+      </article>
+    </section>
+    
+    <article class="">
+  <h5>Paises</h5>
+      <ul>
+       <li>Argentina</li>
+       <li>Mexico</li>
+       <li>EE.UU</li>
+       <li>Brasil</li>
+      </ul>
+      <br>
+      <h4> Nombre </h4>
+      <ul>
+       <li>Meli</li>
+       <li>Jesi</li>
+       <li>Cele</li>
+      </ul>
+  <article class="">
+      <h6>Edad</h6>
+       <ul>
+        <li>18</li>
+        <li>21</li>
+        <li>20</li>
+       </ul>
+    </article>
   </section>
-  <section>
-   <h5>Edad</h5>
-    <ul>
-     <li>18</li>
-     <li>21</li>
-     <li>20</li>
-    </ul>
-  </section>
+
 <footer class="encabezado"> <!-- contenedor de pie-->
-  links a redes sociales
+  <p>links a redes sociales</p>
+
   <a href="https://www.instagram.com/" target="_blank"><img src="/home/estudiante/Documentos/ACMJ4°/Instagram-logo-acrylic-splash.png" alt="" width="50px"></a>
   <a href="https://www.facebook.com/" target="_blank"><img src="facebook.jpg" alt="" width="40px"></a>
 </footer>
